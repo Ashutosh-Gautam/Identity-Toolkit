@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/agautam/Downloads/identity-toolkit-android-master/identity-toolkit-android-master/tutorial/build/intermediates/exploded-aar/identitytoolkit-api11/res/values-v16/values.xml -->
+    <eat-comment/>
+    <style name="identitytoolkit_text.header">
+        <item name="android:textColor">@color/identitytoolkit_text_header</item>
+        <item name="android:textSize">@dimen/identitytoolkit_text_size_header</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+</resources>

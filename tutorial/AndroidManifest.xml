@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.identitytoolkit.demo"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.google.identitytoolkit.demo.GitkitDemo"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Un-comment the following data tag and replace placeholder. -->
+                <data
+                    android:host="gitkit"
+                    android:scheme="682394350680-7mtdktd5b5jseu2v7do93qfpghqvebfg.apps.googleusercontent.com" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="identitytoolkit.show_providers"
+            android:value="Google" />
+        <meta-data
+            android:name="identitytoolkit.use_google_plus"
+            android:value="false" />
+        <meta-data
+            android:name="identitytoolkit.api_key"
+            android:value="AIzaSyBZNshOEsAcy5R-my99Py9pWyatD7sx-No" />
+        <meta-data
+            android:name="identitytoolkit.server_client_id"
+            android:value="682394350680-7mtdktd5b5jseu2v7do93qfpghqvebfg.apps.googleusercontent.com" />
+        <meta-data
+            android:name="identitytoolkit.server_widget_url"
+            android:value="https://www.google.com" />
+    </application>
+
+</manifest>

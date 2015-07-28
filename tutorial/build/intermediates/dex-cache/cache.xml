@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\agautam\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="C:\Users\agautam\Downloads\identity-toolkit-android-master\identity-toolkit-android-master\tutorial\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-0f910be72dab1be2e31df4c8aa1895531b59cbf6.jar" />
+    </item>
+    <item
+        jar="C:\Users\agautam\Downloads\identity-toolkit-android-master\identity-toolkit-android-master\tutorial\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.1.11\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0f700f6802ba1a1f1fa7ac26d5db0666a89d75a6">
+        <dex dex="C:\Users\agautam\Downloads\identity-toolkit-android-master\identity-toolkit-android-master\tutorial\build\intermediates\pre-dexed\debug\classes-321384da8bbd15b3015b9e7fd45d40605b04f07c.jar" />
+    </item>
+    <item
+        jar="C:\Users\agautam\Downloads\identity-toolkit-android-master\identity-toolkit-android-master\tutorial\build\intermediates\exploded-aar\identitytoolkit-api11\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="1a874234fc1e9c97810af593edba36e565c30cdf">
+        <dex dex="C:\Users\agautam\Downloads\identity-toolkit-android-master\identity-toolkit-android-master\tutorial\build\intermediates\pre-dexed\debug\classes-03c34213d882c310a7f14372e4586609b3bab4aa.jar" />
+    </item>
+    <item
+        jar="C:\Users\agautam\Downloads\identity-toolkit-android-master\identity-toolkit-android-master\tutorial\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="C:\Users\agautam\Downloads\identity-toolkit-android-master\identity-toolkit-android-master\tutorial\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-8cb927c05b1b443684be76420f9d89c953f31d7a.jar" />
+    </item>
+    <item
+        jar="C:\Users\agautam\Downloads\identity-toolkit-android-master\identity-toolkit-android-master\tutorial\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="C:\Users\agautam\Downloads\identity-toolkit-android-master\identity-toolkit-android-master\tutorial\build\intermediates\pre-dexed\debug\classes-fd1ec04a9412e3d8fb9bfffdd557765f4faa5903.jar" />
+    </item>
+
+</items>
